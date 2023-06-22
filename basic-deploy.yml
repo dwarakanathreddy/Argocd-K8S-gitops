@@ -1,0 +1,13 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: nginx-argo
+spec:
+  project: default
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  source:
+    path: argo-examples
+    repoURL: https://github.com/dwarakanathreddy/Kubernetes-RunBook.git
+    targetRevision: main
