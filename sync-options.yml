@@ -8,8 +8,6 @@ spec:
     namespace: default
     server: https://kubernetes.default.svc
   source:
-    directory:
-      recurse: true
     path: argo-examples
     repoURL: https://github.com/dwarakanathreddy/Kubernetes-RunBook.git
     targetRevision: main

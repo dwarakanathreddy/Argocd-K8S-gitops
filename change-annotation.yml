@@ -1,0 +1,4 @@
+apiVersion: v1
+data:
+  application.resourceTrackingMethod: annotation
+kind: ConfigMap
