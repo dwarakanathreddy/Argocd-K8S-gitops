@@ -1,0 +1,8 @@
+kind: AppProject
+apiVersion: argoproj.io/v1alpha1
+metadata:
+  name: nginx-demo
+  namespace: argocd
+spec:
+  sourceNamespaces:
+  - demo
